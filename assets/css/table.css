@@ -1,0 +1,30 @@
+table {
+	width: 100%;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+}
+
+table tr, table td {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+table tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+table tr:hover {
+	background-color: #ddd;
+}
+
+table .tr1 td {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background-color: #0084FF;
+	color: white; 
+	font-weight: bold;
+}
+
+table tr td input[type=int] {
+	width: 30px;
+}
